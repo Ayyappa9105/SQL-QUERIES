@@ -7,3 +7,13 @@ insert into employee values(105,'balu','Accounts dept',61000);
 insert into employee values(207,'ayyappa','HR dept',700000);
 select * from employee;
 select * from  employee where salary>ALL(select salary from employee where dept='Accounts dept');
+
+//output
+
+
+
+EID	  ENAME	    DEPT	      SALARY
+101   harsha	  HR dept	    50000
+103	  pardu	    CSE dept	  50000
+104	  lokesh	  HR dept	    45000
+207	  ayyappa  	HR dept	    70000
