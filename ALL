@@ -12,8 +12,8 @@ select * from  employee where salary>ALL(select salary from employee where dept=
 
 
 
-EID	  ENAME	    DEPT	      SALARY
-101   harsha	  HR dept	    50000
-103	  pardu	    CSE dept	  50000
-104	  lokesh	  HR dept	    45000
-207	  ayyappa  	HR dept	    70000
+EID	ENAME	DEPT	SALARY
+101	harsha	HR dept	50000
+103	pardu	CSE dept	50000
+104	lokesh	HR dept	45000
+207	ayyappa	HR dept	70000
